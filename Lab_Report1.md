@@ -29,3 +29,11 @@ In this class, you will need to remotely connect to a survey. First things first
 
 ![Your screen shall now look like this:](remoteConnect.png)
 
+
+4) **Exploring terminal commands**
+
+Now just test out commands you learned in class and note what each one does.
+
+**Here is an example:**
+
+![]()
