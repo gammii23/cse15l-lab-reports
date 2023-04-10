@@ -36,4 +36,10 @@ Now just test out commands you learned in class and note what each one does.
 
 **Here is an example:**
 
-![]()
+![image](commands.png)
+
+
+What I did here was cd into an absolute path. Justin is just a directory I created beforehand. I then used ls to check what is in this directory and only the text file I created was in it. Then I printed my working directory, and lastly I printed out the contents of my text file.
+
+
+**Hopefully this tutorial was useful. Have fun testing out commands.**
