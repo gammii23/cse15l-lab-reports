@@ -39,8 +39,8 @@ Now just test out commands you learned in class and note what each one does.
 
 ![image](commands.png)
 
+ Once I knew what directory I was in using ```pwd```, which prints out the working directory, I used the command ```mkdir testing``` which creates a new directory called testing. Of course there is nothing in there at that moment. I then did ```vim justin.txt```, and since that text file doesnt exist,it creates a new text file called justin.txt in my working directory (testing).
 
-What I did here was cd into an absolute path. Justin is just a directory I created beforehand. I then used ls to check what is in this directory and only the text file I created was in it. Then I printed my working directory, and lastly I printed out the contents of my text file.
 
 
 **Hopefully this tutorial was useful. Have fun testing out commands.**
