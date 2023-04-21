@@ -80,9 +80,16 @@ public class StringServer
 }
    ```
 
+             
                                                       
                                                       
- * And here is two examples of how to edit the URL to highlight how the code funcitons:
+                                                      
+                                                      
+ * And here are two examples of how to edit the URL to highlight how the code funcitons:
+         
+                                                      
+                                                      
+                                                      
                                                       
                                                       
  ![](https://github.com/gammii23/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-21%20at%202.31.26%20PM.png)          
