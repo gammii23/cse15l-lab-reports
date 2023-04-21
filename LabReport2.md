@@ -95,7 +95,7 @@ public class StringServer
                                                       
 Okay so let's talk about this code:
 1) The method that control these URL requests is ```public String handleRequest(URI url)```.
-  First of all my handler class has a class variable called "message". This gets concatenated each time a URL is requested. Each time a URL is requested, it is passed through the handleRequest method in the parameter `(URI url)`. The method looks at the path and if the path contains "add-message" it then checks if there is a query(?). An array called parameters stores all argument in the URL and all the arguments are before/after the equals signs in the URL. The code checks if the first index of the array is "s". and if it is, it adds each element of the array after that to the class variable "message".
+  First of all my handler class has a class variable called "message". This gets concatenated each time a URL is requested. Each time a URL is requested, it is passed through the handleRequest method in the parameter `(URI url)`. The method looks at the path and if the path contains "add-message" it then checks if there is a query(?). An array called parameters stores all argument in the URL and all the arguments are before/after the equals signs in the URL. The code checks if the first index of the array is "s". and if it is, it adds each element of the array after that to the class variable "message". So as you can see, message is constantly getting updated and printed.This code all relies on the URL though, mainly the path to update the message variable. The values of this code include "add-message", "s", new Handler(), etc.
   
  
   
