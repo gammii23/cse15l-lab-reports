@@ -20,8 +20,8 @@ Before creating our webserver, there is starter code to download
 * Once you compile it, you can start your server with this command: java NumberServer <port> (fill in port without the arrows).
 * You can now visit the web server with the URL provided in terminal and use different paths that are seen in the starter code
   
-5)**Creating a StringServer**
- *First of all here is the code I used to created a web server that supports adding Strings and printing the result of all added string:
+5) **Creating a StringServer**
+ * First of all here is the code I used to created a web server that supports adding Strings and printing the result of all added string:
   
 ```java 
 import java.io.IOException;
