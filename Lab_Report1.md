@@ -21,7 +21,8 @@ VS code is the IDE you will be working in for this class, as well as the place y
 In this class, you will need to remotely connect to a survey. First things first, if you are on windows [Visit this link](https://gitforwindows.org/) and [Visit this link](https://stackoverflow.com/a/50527994).
 
 * Open terminal within VS code. (You can do this on mac by looking at the top of your screen and clicking terminal, then new terminal)
-* Copy this command into terminal, but replace the last two characters with the last two characters of your course specific account:  **ssh cs15lwi23zz@ieng6.ucsd.edu**
+* Copy this command into terminal, but replace the last two characters with the last two characters of your course specific account:  
+* ```ssh cs15lwi23zz@ieng6.ucsd.edu```
 * Say yes to the following question that comes up and enter your password for this account. *You might need to reset your password*.
 
 **Your terminal should now look like this:**
