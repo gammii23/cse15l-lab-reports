@@ -23,6 +23,7 @@ Before creating our webserver, there is starter code to download
 5) **Creating a StringServer**
  * First of all here is the code I used to created a web server that supports adding Strings and printing the result of all added string:
   
+  
 ```java 
 import java.io.IOException;
 import java.net.URI; 
@@ -78,7 +79,12 @@ public class StringServer
     }
 }
    ```
-                                          
+
+ * And here is two examples of how to edit the URL to highlight how the code funcitons:
+ ![](https://github.com/gammii23/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-21%20at%202.31.26%20PM.png)          
+ ![](https://github.com/gammii23/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-21%20at%202.32.46%20PM.png)                                                     
+                                                      
+                                                      
   
  
   
