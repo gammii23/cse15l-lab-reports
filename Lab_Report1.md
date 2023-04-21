@@ -22,7 +22,7 @@ In this class, you will need to remotely connect to a survey. First things first
 
 * Open terminal within VS code. (You can do this on mac by looking at the top of your screen and clicking terminal, then new terminal)
 * Copy this command into terminal, but replace the last two characters with the last two characters of your course specific account:  
-* ```c ssh cs15lwi23zz@ieng6.ucsd.edu ```
+* ```j #1 ssh cs15lwi23zz@ieng6.ucsd.edu ```
 * Say yes to the following question that comes up and enter your password for this account. *You might need to reset your password*.
 
 **Your terminal should now look like this:**
