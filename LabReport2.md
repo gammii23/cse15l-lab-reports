@@ -93,7 +93,8 @@ public class StringServer
  ![](https://github.com/gammii23/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-21%20at%202.31.26%20PM.png)          
  ![](https://github.com/gammii23/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-21%20at%202.32.46%20PM.png)                                                     
                                                       
-                                                      
+Okay so let's talk about this code:
+1) The method that control these URL requests is ```java public String handleRequest(URI url)```
   
  
   
