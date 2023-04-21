@@ -80,9 +80,7 @@ public class StringServer
 }
    ```
 
-             
-                                                      
-                                                      
+  <br/><br/>                                       
                                                       
                                                       
  * And here are two examples of how to edit the URL to highlight how the code funcitons:
