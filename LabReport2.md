@@ -1,4 +1,4 @@
-# URL and Servers
+# URL,Servers,and Debugging
 
 1) **Download JDK**
 * [visit this link](https://www.oracle.com/java/technologies/downloads/) and download the latest version that corresponds to your OS.
@@ -10,7 +10,7 @@
 * Once you've done the tutorial its time to clone your repository. Click the clone repository button and choose the repository you wish to clone.
 * Great, Youve cloned your repository from the internet onto your Desktop application!
 
-3) **Wavelet**<br/>
+3) **Wavelet**<br/><br/>
 Before creating our webserver, there is starter code to download
 * [Here is the repository](https://github.com/ucsd-cse15l-f22/wavelet) fork this repository, then clone it to GitHub Desktop and open it in visual studio.
 * Feel free to read the code in Server.java but it is not needed. Do make sure to read the code in NumberServer and try to make sense of it.
