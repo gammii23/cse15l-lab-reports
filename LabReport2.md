@@ -146,7 +146,7 @@ public class ArrayTests {
  
  
  
- ```
+ ```java
  int [] input2= {7,5,4}; 
  ```
 
