@@ -154,7 +154,7 @@ public class ArrayTests {
 The expected result is {4,5,7} but the actual code loops through the array too many times.
 
 <br/>
-
+<br/>
 * An input that doesn't result in a failure is seen in this code:
 <br/>
 
