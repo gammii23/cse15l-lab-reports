@@ -176,4 +176,6 @@ The expected result is {4,5,7} but the actual code loops through the array too m
  int[] input1 = { 3 };
  ```
  Does not create an error due to the fact that there is nothing to switch around. As you can see the original code has a bug that makes it so it does not work for *most* cases
-
+<br/>
+<br/>
+* Here is the symptom shown when running the junit test:
