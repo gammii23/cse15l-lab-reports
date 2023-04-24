@@ -179,3 +179,6 @@ The expected result is {4,5,7} but the actual code loops through the array too m
 <br/>
 <br/>
 * Here is the symptom shown when running the junit test:
+![](https://github.com/gammii23/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-24%20at%203.17.57%20PM.png)
+<br/>
+As you can see the symptom is that the expected value is not equal to the actual value. The last index should have been 7 but it was actually 4.
