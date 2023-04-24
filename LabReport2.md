@@ -186,7 +186,7 @@ As you can see the symptom is that the expected value is not equal to the actual
 
 * Here is the code before and after the change. The first one is the code with the bug:
 <br/>
-before:
+Before:
 
 ```java
 static void reverseInPlace(int[] arr) {
@@ -209,5 +209,6 @@ static void reverseInPlace(int[] arr) {
     }
   }
   ```
-
+<br/>
+The reason the after code fixes the bug is becuase, 1) it loops through the array half of the length so the array is not reversed twice and 2) it has a temporary variable to hold the index that is being switched so the original element is not lost.
 
