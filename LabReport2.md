@@ -142,5 +142,5 @@ public class ArrayTests {
    ```
    
 <br/>
-* The failure-inducing input when testing ReverseInPlace would be ``` int [] input2= {7,5,4};```
+* The failure-inducing input when testing ReverseInPlace would be  ` int [] input2= {7,5,4};`
 
