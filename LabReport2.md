@@ -150,3 +150,21 @@ public class ArrayTests {
  int [] input2= {7,5,4}; 
  ```
 
+<br/>
+The expected result is {4,5,7} but the actual code loops through the array too many times.
+
+<br/>
+
+* An input that doesn't result in a failure is seen in this code:
+<br/>
+
+
+```java
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+  }
+  ```
+
