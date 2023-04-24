@@ -102,13 +102,13 @@ Okay so let's talk about this code:
 1) Array method "ReverseInPlace"
 * The method "ReverseInPlace" has fundamental errors that create unwanted symptoms. Here is the J-unit test I wrote to test this method:
 <br/>
-```java
+```
 import static org.junit.Assert.*;
 import org.junit.*;
 
 public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
+  @Test 
+  public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
@@ -116,8 +116,7 @@ public class ArrayTests {
     int [] expected= {4,5,7};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(expected,input2);
-	}
-
+  }
 
   @Test
   public void testReversed() {
@@ -129,15 +128,9 @@ public class ArrayTests {
   }
 
   @Test 
-  public void testAverage()
-  {
-    double[]nums={1.0,1.0,2.0,3.0,4.0,5.0};
-    double result= (16.0/6.0);
-    assertEquals(result,ArrayExamples.averageWithoutLowest(nums),0.0001);
+  public void testAverage() {
+    double[] nums = {1.0,1.0,2.0,3.0,4.0,5.0};
+    double result = (16.0/6.0);
+    assertEquals(result, ArrayExamples.averageWithoutLowest(nums), 0.0001);
   }
-}
-
-  ```
- 
-  
-
+}```
