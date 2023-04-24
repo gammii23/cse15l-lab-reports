@@ -100,65 +100,47 @@ Okay so let's talk about this code:
   
 # Part 2
 1) Array method "ReverseInPlace"
-* The method "ReverseInPlace" has fundamental errors that create unwanted symptoms. Here is the J-unit test I wrote to test this method:
+* The method "ReverseInPlace" has fundamental errors that create unwanted symptoms. Here is the J-unit tests I wrote to test this method and the other methods in the ArrayExamples class:
 <br/>
 
 
 ```java 
-```java 
-import java.io.IOException;
-import java.net.URI; 
-import java.util.*;
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+    int [] input2= {7,5,4};
+    int [] expected= {4,5,7};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(expected,input2);
+	}
 
 
-class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
-    int num = 0;
-    String message="";
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+    int [] input2= {1,2,3};
+    int [] expected= {3,2,1};
+    assertArrayEquals(expected,ArrayExamples.reversed(input2));
+  }
 
-    ArrayList<String> wordList= new ArrayList<String>();
+  @Test 
+  public void testAverage()
+  {
+    double[]nums={1.0,1.0,2.0,3.0,4.0,5.0};
+    double result= (16.0/6.0);
+    assertEquals(result,ArrayExamples.averageWithoutLowest(nums),0.0001);
+  }
+}
+
+   ```
    
-    public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return String.format(" Justins Number is: %d", num);
-       
-        } 
-        else if(url.getPath().contains("/add-message"))
-        {
-            String[] parameters = url.getQuery().split("=");
-          
-                if (parameters[0].equals("s")) {
-                    message+="\n";
-                 for(int i=1;i<parameters.length;i++)
-                 message+=" "+parameters[i];
-                }
-                return message;
-        } 
-            else {
-            System.out.println("Path: " + url.getPath());
-            if (url.getPath().contains("/")) {
-                return message;
-            }
-            return "404 Not Found!";
-        }
-    }
-}
+<br/>
+* The failure-inducing input when testing ReverseInPlace would be ```java int [] input2= {7,5,4};```
 
-
-public class StringServer
-{
-    public static void main(String[] args) throws IOException {
-        if(args.length == 0){
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
-            return;
-        }
-
-        int port = Integer.parseInt(args[0]);
-
-        Server.start(port, new Handler());
-    }
-}
-   ```
-
-   ```
