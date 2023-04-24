@@ -102,7 +102,7 @@ Okay so let's talk about this code:
 1) Array method "ReverseInPlace"
 * The method "ReverseInPlace" has fundamental errors that create unwanted symptoms. Here is the J-unit test I wrote to test this method:
 <br/>
-```java 
+```
 
 import static org.junit.Assert.*;
 import org.junit.*;
