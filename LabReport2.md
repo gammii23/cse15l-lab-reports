@@ -104,7 +104,12 @@ Okay so let's talk about this code:
 <br/>
 ```java 
 
-public void testReverseInPlace() {
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
@@ -113,6 +118,26 @@ public void testReverseInPlace() {
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(expected,input2);
 	}
+
+
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+    int [] input2= {1,2,3};
+    int [] expected= {3,2,1};
+    assertArrayEquals(expected,ArrayExamples.reversed(input2));
+  }
+
+  @Test 
+  public void testAverage()
+  {
+    double[]nums={1.0,1.0,2.0,3.0,4.0,5.0};
+    double result= (16.0/6.0);
+    assertEquals(result,ArrayExamples.averageWithoutLowest(nums),0.0001);
+  }
+}
+
   ```
  
   
