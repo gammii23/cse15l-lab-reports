@@ -211,4 +211,6 @@ static void reverseInPlace(int[] arr) {
   ```
 <br/>
 The reason the after code fixes the bug is becuase, 1) it loops through the array half of the length so the array is not reversed twice and 2) it has a temporary variable to hold the index that is being switched so the original element is not lost.
-
+<br/>
+# Part 3
+A couple things I learned from these past two labs include: How to start debugging, how to create a web server, and how URl's work. First of all when your code does not produce the correct output you want, you carefully look at the output/error(symptom). Then you try testing out different inputs to see which creates failures and which don't. This should give you a better understanding of whats going wrong. Finally you address the actual bug in the code based on the symptoms you were getting. I also learned how to create a web server. It was interesting to learn that there is a class that deals with handling URL requests and that there is a method to locally hosting a server using a local computer port. Lastly I know how to better navigate the web as I understand that the URL is made of different parts(domain, query, path, etc).
