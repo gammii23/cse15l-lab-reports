@@ -167,4 +167,13 @@ The expected result is {4,5,7} but the actual code loops through the array too m
     assertArrayEquals(new int[]{ 3 }, input1);
   }
   ```
+  
+ <br/>
+ 
+ * The input 
+ 
+ ```java
+ int[] input1 = { 3 };
+ ```
+ Does not create an error due to the fact that there is nothing to switch around. As you can see the original code has a bug that makes it so it does not work for *most* cases
 
