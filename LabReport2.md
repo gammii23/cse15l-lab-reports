@@ -95,8 +95,25 @@ public class StringServer
                                                       
 Okay so let's talk about this code:
 1) The method that control these URL requests is ```public String handleRequest(URI url)```.
-  First of all my handler class has a class variable called "message". This gets concatenated each time a URL is requested. Each time a URL is requested, it is passed through the handleRequest method in the parameter `(URI url)`. The method looks at the path and if the path contains "add-message" it then checks if there is a query(?). An array called parameters stores all argument in the URL and all the arguments are before/after the equals signs in the URL. The code checks if the first index of the array is "s". and if it is, it adds each element of the array after that to the class variable "message". So as you can see, message is constantly getting updated and printed.This code all relies on the URL though, mainly the path to update the message variable. The values of this code include "add-message", "s", new Handler(), etc.
+  First of all my handler class has a class variable called "message". This gets concatenated each time a URL is requested. Each time a URL is requested, it is passed through the handleRequest method in the parameter `(URI url)`. The method looks at the path and if the path contains "add-message" it then checks if there is a query(?). An array called parameters stores all argument in the URL and all the arguments are before/after the equals signs in the URL. The code checks if the first index of the array is "s". and if it is, it adds each element of the array after that to the class variable "message". So as you can see, message is constantly getting updated and printed.This code all relies on the URL though, mainly the path to update the message variable. The values of this code include "add-message", "s", new Handler(), etc. The things that change when a URL is requested in parameters array and messages get updated.
   
+  
+# Part 2
+1) Array method "ReverseInPlace"
+* The method "ReverseInPlace" has fundamental errors that create unwanted symptoms. Here is the J-unit test I wrote to test this method:
+<br/>
+```java 
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+    int [] input2= {7,5,4};
+    int [] expected= {4,5,7};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(expected,input2);
+	}
+  ```
  
   
 
