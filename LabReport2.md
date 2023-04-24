@@ -182,3 +182,32 @@ The expected result is {4,5,7} but the actual code loops through the array too m
 ![](https://github.com/gammii23/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-24%20at%203.17.57%20PM.png)
 <br/>
 As you can see the symptom is that the expected value is not equal to the actual value. The last index should have been 7 but it was actually 4.
+<br/>
+
+* Here is the code before and after the change. The first one is the code with the bug:
+<br/>
+before:
+
+```java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+     
+      arr[i] = arr[arr.length - i - 1];
+      
+    }
+  }
+  ```
+  <br/>
+ After:
+ 
+```java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp=arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+  ```
+
+
