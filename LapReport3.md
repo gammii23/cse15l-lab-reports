@@ -300,5 +300,5 @@ output:
 This option allows you to filter based on files and directories that were modified within a time period. This would be useful if you were working on a new project and then the computer crashes. Say you forgot the name of the file, you could use this option to easily find it again.
 
 
-** [My only source for all of these](https://www.youtube.com/watch?v=KCVaNb_zOuw)**
+**[My only source for all of these](https://www.youtube.com/watch?v=KCVaNb_zOuw)**
 
