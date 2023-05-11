@@ -209,7 +209,45 @@ As you can see, you can also use M to denote megabytes,k to denote kilobytes, an
 
 2. -type
 
-command: ```find biomed -type d```
+command: ```find . -type d```
 
-output: ```biomed```
+output: 
 
+```bash
+.
+./government
+./government/About_LSC
+./government/Env_Prot_Agen
+./government/Alcohol_Problems
+./government/Gen_Account_Office
+./government/Post_Rate_Comm
+./government/Media
+./plos
+./biomed
+./911report
+```
+
+The type option allows you to filter based on a type. In this case "d" means directory. If I didnt include the type. I would get all files and directories in my current directory(technical). But if I only wanted to see all the directories that are under technical I would have a hard time if I did not filter. This is where the type option comes in handy.
+
+Another way to use type would be to filter based on files.
+
+command: ```find . -type f```
+
+
+output: 
+
+```bash
+biomed/gb-2002-3-9-research0043.txt
+biomed/1471-2415-3-5.txt
+biomed/1471-2334-1-21.txt
+biomed/gb-2001-2-7-research0025.txt
+biomed/ar130.txt
+biomed/1476-069X-2-7.txt
+biomed/1472-6890-2-5.txt
+biomed/ar118.txt
+biomed/gb-2002-3-7-research0032.txt
+biomed/1471-2253-2-5.txt
+biomed/1471-2210-1-10.txt
+```
+
+Here I only included part of the output as there are a lot of files in technical. Again this is just a useful way to filter. If there were a lot of directories in technical and I only wanted the files, I would have to filter using this option.
