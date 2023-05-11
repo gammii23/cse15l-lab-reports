@@ -170,3 +170,39 @@ command:
 find . -size -1M -size +100k
 ```
 
+output:
+
+```bash
+./government/About_LSC/commission_report.txt
+./government/About_LSC/State_Planning_Report.txt
+./government/Env_Prot_Agen/multi102902.txt
+./government/Env_Prot_Agen/ctm4-10.txt
+./government/Env_Prot_Agen/bill.txt
+./government/Env_Prot_Agen/tech_adden.txt
+./government/Gen_Account_Office/d0269g.txt
+./government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt
+./government/Gen_Account_Office/Sept27-2002_d02966.txt
+./government/Gen_Account_Office/d01376g.txt
+./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+./government/Gen_Account_Office/pe1019.txt
+./government/Gen_Account_Office/gg96118.txt
+./government/Gen_Account_Office/d01591sp.txt
+./government/Gen_Account_Office/im814.txt
+./government/Gen_Account_Office/ai9868.txt
+./government/Gen_Account_Office/May1998_ai98068.txt
+./government/Gen_Account_Office/d02701.txt
+./biomed/1471-2105-3-2.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-3.txt
+./911report/chapter-1.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-9.txt
+./911report/chapter-12.txt
+```
+
+As you can see, you can also use M to denote megabytes,k to denote kilobytes, and G to denote gigabytes. You can also set ranges as "+" means more than and "-" means less than. Again this would be incredibly useful to clear out space. Say you have a file that takes up over a gigabyte that you forgot you had and that you don't need anymore.Just change the "+" argument to "+1G".
+
