@@ -1,7 +1,10 @@
 # Find Command Options
 1. -size <br>
 command : ``` find . -size -5k -size +1k ``` <br>
-output: : ``` ./government/Gen_Account_Office
+output: 
+
+```bash
+./government/Gen_Account_Office
 ./government/Gen_Account_Office/d01121g.txt
 ./government/Media
 ./government/Media/Federal_agency.txt
