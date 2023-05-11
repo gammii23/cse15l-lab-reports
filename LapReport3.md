@@ -251,3 +251,54 @@ biomed/1471-2210-1-10.txt
 ```
 
 Here I only included part of the output as there are a lot of files in technical. Again this is just a useful way to filter. If there were a lot of directories in technical and I only wanted the files, I would have to filter using this option.
+
+
+3. -empty
+
+command: ```find . -empty```
+
+output:
+
+```bash
+./kevin.txt
+./justin.txt
+```
+
+This option allows me to find empty files. I created those text files beforehand to showcase this option. Again this is incredibly useful to help with organizing a filesystem. Say I created a filesystem that had a bunch of empty  files as I thought I would use them. Say I only used a handful of them as I didn't need all those text files I thought I would need. I can find all the empty ones using this option.
+
+
+Another example would be the command : ```find biomed -empty```
+
+Output: ```biomed/emptydir```
+
+In this case I created an empty directory in biomed. I then searched biomed using the empty option. As you can see this option also looks for empty directories not just files.
+
+
+4. -mmin
+
+command: ```find . -mmin -5```
+
+output: 
+
+```
+./biomed
+./biomed/emptydir
+```
+
+command: ```find . -mmin +5 -mmin -30```
+
+output:
+
+```bash
+.
+./testing
+./biomed
+./biomed/emptydir
+```
+
+
+This option allows you to filter based on files and directories that were modified within a time period. This would be useful if you were working on a new project and then the computer crashes. Say you forgot the name of the file, you could use this option to easily find it again.
+
+
+** [My only source for all of these](https://www.youtube.com/watch?v=KCVaNb_zOuw)**
+
