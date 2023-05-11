@@ -204,5 +204,12 @@ output:
 ./911report/chapter-12.txt
 ```
 
-As you can see, you can also use M to denote megabytes,k to denote kilobytes, and G to denote gigabytes. You can also set ranges as "+" means more than and "-" means less than. Again this would be incredibly useful to clear out space. Say you have a file that takes up over a gigabyte that you forgot you had and that you don't need anymore.Just change the "+" argument to "+1G".
+As you can see, you can also use M to denote megabytes,k to denote kilobytes, and G to denote gigabytes. You can also set ranges as "+" means more than and "-" means less than. Again this would be incredibly useful to clear out space. Say you have a file that takes up over a gigabyte that you forgot you had and that you don't need anymore.Just change the "+" argument to "+1G" to find all files over a gigabyte.
+
+
+2. -type
+
+command: ```find biomed -type d```
+
+output: ```biomed```
 
