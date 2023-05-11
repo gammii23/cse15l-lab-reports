@@ -164,5 +164,7 @@ output:
 Why is this useful? Well if I wanted to create space on my computer, I can search for files that are taking a lot of space on my computer. This would be way more efficient than browsing through my files and looking at the space each file is taking.
 
 Another example would be <br>
-command: ```bash  find . -size -1M -size +100k ``
+command: ```bash  
+find . -size -1M -size +100k
+```
 
