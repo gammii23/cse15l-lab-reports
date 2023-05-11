@@ -4,6 +4,7 @@ command : ``` find . -size -5k -size +1k ``` <br>
 output: 
 
 ```bash
+{
 ./government/Gen_Account_Office
 ./government/Gen_Account_Office/d01121g.txt
 ./government/Media
@@ -156,7 +157,9 @@ output:
 ./plos/pmed.0020257.txt
 ./plos/pmed.0020281.txt
 ./plos/pmed.0020242.txt
-``` <br>
+}
+``` 
+<br>
 
 Why is this useful? Well if I wanted to create space on my computer, I can search for files that are taking a lot of space on my computer. This would be way more efficient than browsing through my files and looking at the space each file is taking.
 
