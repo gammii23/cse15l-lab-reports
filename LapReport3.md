@@ -4,7 +4,7 @@ command : ``` find . -size -5k -size +1k ``` <br>
 output: 
 
 ```bash
-{
+
 ./government/Gen_Account_Office
 ./government/Gen_Account_Office/d01121g.txt
 ./government/Media
@@ -157,7 +157,7 @@ output:
 ./plos/pmed.0020257.txt
 ./plos/pmed.0020281.txt
 ./plos/pmed.0020242.txt
-}
+
 ``` 
 <br>
 
