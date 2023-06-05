@@ -2,4 +2,5 @@
 <br/>
 1. EdStem Discussion
 <br/>
-  a. 
+**Title: Unknown String index out of bounds error.
+Category: Debugging**
