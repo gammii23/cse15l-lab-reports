@@ -5,4 +5,4 @@
 
 **Title: Unknown String index out of bounds error.**
 
-Category: Debugging
+**Category: Debugging**
