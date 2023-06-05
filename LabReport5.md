@@ -8,3 +8,6 @@
 <br/>
 
 **Category: Debugging**
+
+
+[](dog.png)!
