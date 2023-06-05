@@ -10,4 +10,4 @@
 **Category: Debugging**
 
 
-[](dog.png)!
+![](dog.png)
