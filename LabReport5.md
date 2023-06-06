@@ -47,3 +47,8 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String ind
         at java.base/java.lang.String.charAt(String.java:1512)
         at Dogmain.main(Dogmain.java:26)
 exit code: 1```
+In the future if I encounter a similar bug I can remember to scan for characters that I would usually ignore.
+<br/>
+<br/>
+
+**Category:Reflection**
