@@ -23,4 +23,4 @@ c. I wanted to test out what it looks like when I enter invalid inputs. The prog
 <br/>
 <br/>
 
-**Justin Gamm: Hi, Im unsure what you other two code files are but from what I can see, I can suggest one thing without explicitly telling you what to do. Remember scanning for next Int only looks for an integer but you are also clicking the enter key when you input an int. Try dealing the result of clicking enter. You cannot ignore it. Hope that helps.**
+**Justin Gamm: Hi, Im unsure what you other two code files are but from what I can see, I can suggest one thing without explicitly telling you what to do. Remember scanning for next Int only looks for an integer but you are also clicking the enter key when you input an int. Try dealing with the result of clicking enter. You cannot ignore it. Hope that helps.**
