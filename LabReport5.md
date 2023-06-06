@@ -24,3 +24,26 @@ c. I wanted to test out what it looks like when I enter invalid inputs. The prog
 <br/>
 
 **Justin Gamm: Hi, Im unsure what you other two code files are but from what I can see, I can suggest one thing without explicitly telling you what to do. Remember scanning for next Int only looks for an integer but you are also clicking the enter key when you input an int. Try dealing with the result of clicking enter. You cannot ignore it. Hope that helps.**
+<br/>
+<br/>
+
+![](dogfix.png)
+
+Thank you for the help, I was stuck on what to do and needed that. I see now all I had to do was take care of the empty space that resulted from clicking the enter key. I just needed to scan it so that the next scan doesn't read the empty space as the first character. Thank you.
+<br/>
+<br/>
+
+All in all the structure I went for was to keep my three files in the same directory. The reason I did this was because I have one file that defines the dog class and another file that creates an instance of that class and runs the program. I needed the two files to be in the same directory to do this. The bash file is also in the same directory so when I compile the files I dont need to specifiy a long path in the bash script. The contents of each file was pretty much the same before fixing the bug. The only difference was I added to lines that scanned the enter key. To trigger the bug these were the command line imputs:
+```bash  bash Dogsh.sh bella
+Hi Welcome bella
+Choose 'g' to growl, 'h' to howl, and 'b' to bark 
+4
+Now choose volume: 1,2,3
+4
+Please try again.
+Choose 'g' to growl, 'h' to howl, and 'b' to bark 
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+        at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+        at java.base/java.lang.String.charAt(String.java:1512)
+        at Dogmain.main(Dogmain.java:26)
+exit code: 1```
