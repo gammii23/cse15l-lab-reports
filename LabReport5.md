@@ -54,3 +54,4 @@ In the future if I encounter a similar bug I can remember to scan for characters
 <br/>
 
 **Category:Reflection**
+The second half of Lab sections was mostly focused on autograder. This topic was quite annoying and frusturating. Thankfully my Tutor Andrew was very helpful and answered my plethora of questions. We would bring up stack overflow posts and chatgpt solutions to him and we would all look at it together and try to understand it together. One cool thing I learned was the use of substring in bash script. I had no clue you could take a substring of a line in a text file using command line arguments. I was trying to use regex first, chatgpt led me to this, and had no clue how to proceed. He looked at the code with use and tried to make sense of the regex but ultimately we came to the conclusion to use the substring method. It just baffles me how many possiblities there are with bash scripts. 
