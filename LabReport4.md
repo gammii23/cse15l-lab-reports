@@ -6,3 +6,6 @@
 <up><enter>
 ```
 This allowed to me to login to my ieng6 by accessing my bash history and using command ``` ssh cs15lsp23lz@ieng6.ucsd.edu```
+<br/>
+
+![](step5.png)
