@@ -18,3 +18,7 @@ I typed ```git clone``` and then did ```<CTRL+C><CTRL+V><ENTER> lab7again``` I c
 
 ![](step7.png)
 I scrolled down to the error then i did ```<x><i><2>``` I deleted 1 from index1 and inserted 2. This fixes the bug.
+<br/>
+
+![](step8.png)
+I did ```<up><up><Enter>``` the command ```bash test.sh``` was 2 up in the bash history so then I accessed and ran the test using up arrow and enter. The tests now pass.
