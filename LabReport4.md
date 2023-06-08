@@ -14,3 +14,7 @@ I typed ```git clone``` and then did ```<CTRL+C><CTRL+V><ENTER> lab7again``` I c
 
 ![](step6.png) 
 ```<up><up><up><Enter>``` The command ```bash test.sh``` was 3 up in the bash history so then I accessed and ran the test using the up arrow and enter
+<br/>
+
+![](step7.png)
+I scrolled down to the error then i did ```<x><i><2>``` I deleted 1 from index1 and inserted 2. This fixes the bug.
