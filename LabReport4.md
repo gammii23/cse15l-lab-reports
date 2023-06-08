@@ -22,3 +22,8 @@ I scrolled down to the error then i did ```<x><i><2>``` I deleted 1 from index1 
 
 ![](step8.png)
 I did ```<up><up><Enter>``` the command ```bash test.sh``` was 2 up in the bash history so then I accessed and ran the test using up arrow and enter. The tests now pass.
+<br/>
+
+![](step9.png)
+I did ```git add .``` ```git commit``` ```<CTRL+R><git push git><Enter>```
+So first I added everything changed in the current directory. I then committed it with a random message. Then I did a reverse i search for bash history and typed in the beginning part of the command until I found the command ```git push git@github.com:gammii23/lab7.git``` This pushed the code to the repository and updates it.
